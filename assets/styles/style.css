@@ -1,0 +1,741 @@
+@import url("./fonts.css");
+
+
+* {
+    margin: 0;
+    bottom: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+
+    box-sizing: border-box;
+    font-family: "Montserrat";
+    color: #999088;
+}
+
+.container {
+    margin: 0 auto;
+    width: 1100px;
+}
+
+body {
+    background-image: url(../../assets/img/background.jpg);
+    height: 2000px;
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.cormy {
+    font-family: Corm;
+}
+
+.zakaz {
+    color: aliceblue;
+}
+
+p {
+    font-family: Montserrat;
+}
+
+/* ГОЛОВА
+ГОЛОВА
+ГОЛОВА
+ГОЛОВА */
+
+
+header {
+    margin-top: 35px;
+    color: #999088;
+}
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header .container .lefth {
+    display: flex;
+
+}
+
+header .container .lefth .history {
+    margin-left: 30px;
+}
+
+header .container .midh {
+    display: flex;
+}
+
+.mimilo {
+    font-family: 'Corm';
+    font-size: 30px;
+    color: #756b62;
+}
+
+header .container .righth {
+    display: flex;
+}
+
+header .container .righth .principe {
+    margin-right: 30px;
+}
+
+.nabor {
+    margin-right: 30px;
+}
+
+.bag {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+.section-mchg {
+    margin-top: 200px;
+}
+
+.section-mchg .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.mchg {
+    display: flex;
+    align-items: center;
+    font-family: Corm;
+    font-size: 90px;
+    position: relative;
+    left: 135px;
+    color: #756b62;
+    font-weight: 200;
+}
+
+.mchgmain {
+    display: flex;
+    position: relative;
+
+}
+
+.section-mchg .soap {
+    display: flex;
+    justify-content: right;
+    margin-right: 100px;
+}
+
+.section-mchg .skin {
+    background-image: url(../../assets/img/2.jpg);
+    width: 570px;
+    height: 720px;
+
+}
+
+.watermark {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 1100px;
+    bottom: -50px;
+    opacity: 30%;
+
+}
+
+.milo {
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 600px;
+    left: 150px;
+
+}
+
+.hand {
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 300px;
+}
+
+.lovesoap {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.love {
+    font-family: Corm;
+    font-size: 50px;
+    margin-right: 100px;
+    color: #999088;
+    font-style: italic;
+}
+
+.telo {
+    background-image: url(../../assets/img/Body.svg);
+    width: 200px;
+    height: 250px;
+    background-size: cover;
+    position: absolute;
+    left: 870px;
+    bottom: -50px;
+}
+
+.section-mchg u {
+    font-family: Corm;
+    color: #756b62;
+}
+
+.section-collection {
+    display: flex;
+    flex-direction: column;
+    margin-top: 200px;
+}
+
+.section-collection .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-collection .container .linecolle {
+    display: flex;
+}
+
+.section-collection .container .line {
+    height: 1px;
+    background-color: #999088;
+    width: 60px;
+    margin-top: 7px;
+}
+
+.section-collection .container .textcollection {
+    color: #999088;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
+
+.section-collection .collections {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.section-collection .txtall {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-collection .name {}
+
+.section-collection .price {
+    margin-top: 15px;
+
+}
+
+.section-collection .plus {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: #999088 solid 1px;
+
+}
+
+.section-collection .plusmain {
+    font-size: 30px;
+}
+
+
+
+
+
+.section-history {
+    margin-top: 400px;
+}
+
+.section-history .hisline {
+    display: flex;
+}
+
+
+.section-history .minmain {
+    margin-top: 50px;
+    position: relative;
+}
+
+.section-history .topxtx {
+    font-size: 50px;
+    font-family: Corm;
+    color: #756b62;
+    font-style: italic;
+}
+
+.section-history .botttxt {
+    font-family: Corm;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 25px;
+}
+
+.section-history .creator {
+    display: flex;
+    margin-top: 25px;
+}
+
+.section-history .txtcreate {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-history .name {
+    text-decoration: underline;
+    font-weight: 500;
+    color: #756b62
+}
+
+.section-history .roly {
+    margin-top: 10px;
+}
+
+
+.section-history .woman {
+    height: 70px;
+    width: 70px;
+    border: none solid 1px;
+    border-radius: 50%;
+}
+
+.section-history .line {
+    height: 1px;
+    background-color: #999088;
+    width: 60px;
+    margin-top: 7px;
+}
+
+.section-history .textcollection {
+    margin-left: 25px;
+    text-transform: uppercase;
+}
+
+.section-history .ruka {
+    background-image: url(../../assets/img/11.jpg);
+    width: 470px;
+    height: 710px;
+    position: absolute;
+    left: 700px;
+    bottom: -260px;
+}
+
+.section-history .caple {
+    background-image: url(../../assets/img/12.jpg);
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    left: 390px;
+    bottom: -320px;
+}
+
+.section-history .rose {
+    position: relative;
+    left: 410px;
+    top: 280px;
+}
+
+
+
+
+.section-3blocks {
+    margin-top: 500px;
+}
+
+.section-3blocks .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-3blocks img {
+    width: 55px;
+    height: 55px;
+}
+
+.section-3blocks .block {
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-3blocks .txt {
+    font-family: Corm;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+
+
+
+.section-bigtext {
+    margin-top: 200px;
+}
+
+.section-bigtext .container {
+    width: 1400px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+
+.section-bigtext .bgtxtmain {
+    font-size: 130px;
+    font-family: Corm;
+    font-style: normal;
+    font-weight: 500;
+    color: #bdb4ab;
+    line-height: 130px;
+}
+
+.section-bigtext .woeye {
+    background-image: url(../../assets/img/13.jpg);
+    position: absolute;
+    top: 100px;
+    left: 410px;
+    width: 530px;
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-bigtext .txtintoimg {
+    color: #efe6db;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.section-bigtext .read {
+    margin-top: 50px;
+    text-transform: uppercase;
+    color: #efe6db;
+    font-weight: 300;
+    border: #efe6db solid 1px;
+    width: 200px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    margin-left: 170px;
+}
+
+
+
+.section-images {
+    margin-top: 300px;
+}
+
+.section-images .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 2100px;
+}
+
+.section-images .instrekl {
+    display: flex;
+}
+
+.section-images .inst {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.section-images .reklama {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.section-images u {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.section-images .kartinki {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.section-images .milos {
+    width: 370px;
+    height: 370px;
+    margin-left: 25px;
+}
+
+.section-zayav {
+    margin-top: 300px;
+    background-image: url(../../assets/img/19.jpg);
+    background-size: cover;
+    height: 634px;
+}
+
+.section-zayav .container {
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.section-zayav .container .topzay {
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-between;
+}
+
+.section-zayav .container .maintext {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section-zayav .top {
+    font-size: 55px;
+    font-family: Corm;
+    font-style: italic;
+    line-height: 60px;
+    color: #756b62;
+}
+
+.section-zayav .bot {
+    font-size: 24px;
+    font-family: Corm;
+    font-style: italic;
+    margin-top: 30px;
+}
+
+.section-zayav .container .forma {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-zayav .namephone {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-zayav .namephone input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 470px;
+    margin-top: 25px;
+    padding-bottom: 8px;
+    font-size: 18px;
+    opacity: 60%;
+}
+
+.section-zayav .inputs {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.section-zayav .inputs .krugi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-zayav .megainput {
+    display: flex;
+    align-items: center;
+}
+
+.section-zayav .vozin {
+    margin-left: 10px;
+    opacity: 100%;
+    color: #756b62;
+}
+
+.uvlop {
+    width: 20px;
+    height: 20px;
+}
+
+.section-zayav .kvadrat {
+    display: flex;
+    margin-top: 50px;
+}
+
+.section-zayav .textforkva {
+    font-size: 15px;
+    margin-left: 15px;
+    color: #756b62;
+}
+
+
+.section-zayav .butter {
+    display: flex;
+    justify-content: center;
+}
+
+.section-zayav .send {
+    margin-top: 60px;
+    text-transform: uppercase;
+    color: #756b62;
+    font-weight: 300;
+    border: #756b62 solid 1px;
+    width: 190px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2em;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+
+footer {
+    height: 402px;
+    background-image: url(../../assets/img/20.jpg);
+    background-size: cover;
+}
+
+
+footer .container {
+    height: 402px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .leftblockf {
+    display: flex;
+    flex-direction: column;
+}
+
+.leftblockf .mimi {
+    font-size: 32px;
+    font-family: Corm;
+    color: #f1e9de;
+}
+
+.natu {
+    margin-top: 20px;
+}
+
+.tegmimi {
+    margin-top: 50px;
+}
+
+footer .miminatu {
+    display: flex;
+    flex-direction: column;
+}
+
+.midblockf {
+    display: flex;
+    flex-direction: column;
+}
+
+.adres {
+    margin-top: 15px;
+}
+
+.rightblockf {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mestofoico {
+    height: 50px;
+    width: 50px;
+    border: #756b62 solid 1px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 25px;
+}
+
+.ico {
+    width: 30px;
+    height: 30px;
+}
+
+.label_for_input {
+    background-color: transparent;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #333 solid 1px;
+    border-radius: 50%;
+}
+
+.label_for_input .circle {
+    width: 15px;
+    height: 15px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+#R1:checked~label .circle {
+
+    background: #756b62;
+}
+
+#R2:checked~label .circle {
+    background: #756b62;
+}
+
+#R3:checked~label .circle {
+    background: #756b62;
+}
+
+.forma .inputs .megainput input {
+    display: none;
+}
+
+.kva {
+    display: none;
+}
+
+.label_for_inputkva {
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #333 solid 1px;
+    border-radius: 15%;
+}
+
+.label_for_inputkva .circle {
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+}
+
+#p1:checked~label .circle {
+    background: #756b62;
+}
