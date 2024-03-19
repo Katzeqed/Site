@@ -13,9 +13,11 @@
     color: #999088;
 }
 
+
+
 .container {
     margin: 0 auto;
-    width: 1100px;
+    width: 1200px;
 }
 
 body {
@@ -98,6 +100,9 @@ header .container .righth .principe {
 
 .section-mchg {
     margin-top: 200px;
+    display: flex;
+    justify-content: center;
+
 }
 
 .section-mchg .container {
@@ -231,7 +236,7 @@ header .container .righth .principe {
     justify-content: space-between;
 }
 
-.section-collection .name {}
+
 
 .section-collection .price {
     margin-top: 15px;
@@ -443,21 +448,23 @@ header .container .righth .principe {
 
 
 .section-images {
-    margin-top: 300px;
+    margin-top: 20px;
 }
 
 .section-images .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 2100px;
+
 }
 
-.section-images .instrekl {
+.section-bigtext .instrekl {
     display: flex;
+    justify-content: center;
+    margin-top: 200px;
 }
 
-.section-images .inst {
+.section-bigtext .inst {
     width: 20px;
     height: 20px;
     margin-right: 10px;
@@ -476,7 +483,7 @@ header .container .righth .principe {
 .section-images .kartinki {
     display: flex;
     justify-content: space-between;
-    margin-top: 100px;
+
 }
 
 .section-images .milos {
@@ -486,7 +493,7 @@ header .container .righth .principe {
 }
 
 .section-zayav {
-    margin-top: 300px;
+
     background-image: url(../../assets/img/19.jpg);
     background-size: cover;
     height: 634px;
@@ -738,4 +745,854 @@ footer .miminatu {
 
 #p1:checked~label .circle {
     background: #756b62;
+}
+
+
+
+/* Медиа запросы
+Медиа запросы
+Медиа запросы
+Медиа запросы
+Медиа запросы
+Медиа запросы */
+
+@media (max-width: 1220px) {
+    .container {
+        width: 1140px;
+    }
+
+    header .container {
+        width: 950px;
+    }
+
+    .section-mchg .skin {
+        width: 470px;
+        height: 620px;
+    }
+
+    .watermark {
+        width: 90px;
+        height: 90px;
+        left: 870px;
+    }
+
+    .milo {
+        width: 220px;
+        height: 220px;
+        bottom: 500px;
+        left: 50px;
+    }
+
+    .mchg {
+        font-size: 70px;
+    }
+
+    .hand {
+        width: 150px;
+        height: 150px;
+        left: 180px;
+    }
+
+    .love {
+        font-size: 50px;
+    }
+
+    .telo {
+        left: 800px;
+    }
+
+    .section-collection .container .linecolle {
+        margin-left: 400px;
+    }
+
+    .section-collection .collections {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .section-collection .collections .block {
+        margin-top: 50px;
+
+    }
+
+    .section-history .caple {
+        width: 240px;
+        height: 240px;
+        left: 250px;
+    }
+
+    .section-history .ruka {
+        width: 370px;
+        height: 610px;
+        left: 550px;
+    }
+
+    .section-history .rose {
+        left: 200px;
+        top: 180px
+    }
+
+    .section-history .hisline {
+        margin-left: 50px;
+    }
+
+    .section-history .minmain {
+        margin-left: 50px;
+    }
+
+    .section-bigtext .bgtxtmain {
+        font-size: 75px;
+        margin-right: 350px;
+    }
+
+    .section-bigtext .woeye {
+        width: 400px;
+        height: 220px;
+        left: 340px;
+        margin-top: 50px;
+    }
+
+    .section-bigtext .txtintoimg {
+
+        font-size: 15px;
+    }
+
+    .section-bigtext .read {
+
+        margin-left: 100px;
+    }
+
+
+
+    .section-images .kartinki {
+        display: flex;
+
+        align-items: center;
+
+    }
+
+    .section-images .milos {
+        margin-top: 15px;
+        width: 270px;
+        height: 270px;
+    }
+
+    .section-zayav .container .topzay {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+
+    footer {
+        margin-top: 100px;
+    }
+
+    footer .container {
+        flex-direction: column;
+
+    }
+
+    footer .miminatu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tegmimi {
+        display: flex;
+        justify-content: center;
+    }
+
+    .adres {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 1000px) {
+    .container {
+        width: 960px;
+    }
+
+    header .container .lefth {
+
+        margin-left: 100px;
+        font-size: 12px;
+
+    }
+
+    header .container .righth {
+
+        margin-right: 100px;
+        font-size: 12px;
+    }
+
+    .mimilo {
+
+        font-size: 20px;
+
+    }
+
+    .section-mchg .skin {
+
+        width: 270px;
+        height: 420px;
+        background-size: cover;
+
+    }
+
+    .mchg {
+
+        font-size: 60px;
+
+        left: 100px;
+
+    }
+
+    .milo {
+        width: 140px;
+        height: 140px;
+        position: absolute;
+        bottom: 400px;
+        left: 150px;
+
+    }
+
+    .hand {
+        width: 130px;
+        height: 130px;
+
+        left: 200px;
+    }
+
+    .section-mchg {
+        margin-left: -200px;
+
+    }
+
+    .watermark {
+        width: 70px;
+        height: 70px;
+        left: 620px;
+        bottom: -30px;
+
+
+    }
+
+    .lovesoap {
+        margin-right: -230px;
+
+    }
+
+    .telo {
+
+        width: 100px;
+        height: 150px;
+
+        left: 750px;
+        bottom: -30px;
+    }
+
+    .love {
+
+        font-size: 30px;
+
+    }
+
+    .section-collection .container .line {
+
+        width: 40px;
+
+    }
+
+    .section-collection .container .textcollection {
+        font-size: 10px;
+    }
+
+    .section-collection .second {
+        width: 270px;
+        height: 320px;
+    }
+
+    .section-collection .first {
+        width: 270px;
+        height: 320px;
+    }
+
+    .section-collection .plusmain {
+        font-size: 25px;
+    }
+
+    .section-collection .plus {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: #999088 solid 1px;
+
+    }
+
+    .section-history .topxtx {
+        font-size: 30px;
+        font-family: Corm;
+        color: #756b62;
+        font-style: italic;
+    }
+
+    .section-history .botttxt {
+        font-family: Corm;
+        font-style: italic;
+        font-size: 17px;
+        margin-top: 25px;
+    }
+
+    .section-history .woman {
+        height: 50px;
+        width: 50px;
+        border: none solid 1px;
+        border-radius: 50%;
+    }
+
+    .section-history .ruka {
+        background-image: url(../../assets/img/11.jpg);
+        width: 220px;
+        height: 400px;
+        position: absolute;
+        left: 400px;
+        bottom: -200px;
+        background-size: cover;
+    }
+
+    .section-history .caple {
+        background-image: url(../../assets/img/12.jpg);
+        width: 170px;
+        height: 170px;
+        position: absolute;
+        left: 190px;
+        bottom: -220px;
+        background-size: cover;
+    }
+
+    .section-history .rose {
+        position: relative;
+        left: 150px;
+        top: -30px;
+    }
+
+    .section-history {
+        margin-top: 400px;
+        margin-right: -200px;
+    }
+
+    .section-3blocks .container {
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .section-3blocks .block {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .section-bigtext .container {
+        width: 960px;
+        justify-content: center;
+
+    }
+
+    .section-bigtext .bgtxtmain {
+        font-size: 50px;
+        font-family: Corm;
+        font-style: normal;
+        font-weight: 500;
+        color: #bdb4ab;
+        line-height: 70px;
+        margin-right: -10px;
+
+    }
+
+    .section-bigtext .woeye {
+
+        top: 30px;
+        left: 320px;
+        width: 330px;
+        height: 150px;
+        background-size: cover;
+    }
+
+    .section-bigtext .txtintoimg {
+
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .section-bigtext .read {
+
+        margin-left: 70px;
+        margin-bottom: 10px;
+    }
+
+    .section-images .milos {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .section-bigtext .instrekl {
+        margin-left: 90px;
+    }
+
+    .section-zayav {
+
+
+        background-size: cover;
+        height: 634px;
+    }
+
+    .section-zayav .top {
+        font-size: 35px;
+
+    }
+
+    .section-zayav .bot {
+        font-size: 20px;
+
+    }
+
+    .section-zayav .namephone {
+        margin-left: 40px;
+    }
+
+
+    .section-zayav .namephone input {
+
+        width: 350px;
+        font-size: 13px;
+    }
+
+    .section-zayav .container {
+        margin-bottom: 100px;
+    }
+
+    .section-zayav .container .topzay {
+        margin-top: 0;
+    }
+
+    .section-zayav {
+        margin-top: 100px;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+
+}
+
+
+
+@media (max-width: 780px) {
+    .container {
+        width: 720px;
+    }
+
+    header {
+        margin-left: 0px;
+    }
+
+    header .container {
+        width: 800px;
+    }
+
+    header .container .lefth {
+
+
+        font-size: 10px;
+
+    }
+
+
+    header .container .righth {
+
+        margin-left: 50px;
+        font-size: 10px;
+    }
+
+    .mimilo {
+        margin-left: 50px;
+        font-size: 17px;
+
+    }
+
+    .section-mchg .skin {
+
+        width: 170px;
+        height: 320px;
+        background-size: cover;
+
+    }
+
+    .mchg {
+
+        font-size: 40px;
+
+        left: 100px;
+
+    }
+
+    .milo {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        bottom: 300px;
+        left: 120px;
+
+    }
+
+    .hand {
+        width: 100px;
+        height: 100px;
+
+        left: 150px;
+    }
+
+    .section-mchg {
+        margin-left: -200px;
+
+    }
+
+    .watermark {
+        width: 70px;
+        height: 70px;
+        left: 390px;
+        bottom: -30px;
+
+
+    }
+
+    .lovesoap {
+        margin-right: -340px;
+
+    }
+
+    .telo {
+
+        width: 100px;
+        height: 150px;
+
+        left: 600px;
+        bottom: -30px;
+    }
+
+    .love {
+
+        font-size: 25px;
+
+    }
+
+    .section-collection .container .line {
+
+        width: 30px;
+
+    }
+
+    .section-collection .container .linecolle {
+        margin-left: 300px;
+    }
+
+    .section-collection .container .textcollection {
+        font-size: 10px;
+    }
+
+    .section-collection .second {
+        width: 200px;
+        height: 250px;
+    }
+
+    .section-collection .first {
+        width: 200px;
+        height: 250px;
+    }
+
+    .section-collection .plusmain {
+        font-size: 20px;
+    }
+
+    .section-collection .plus {
+        width: 25px;
+        height: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        border: #999088 solid 1px;
+
+    }
+
+    .section-collection .txtall {
+        font-size: 10px;
+    }
+
+    .section-history .topxtx {
+        font-size: 25px;
+        font-family: Corm;
+        color: #756b62;
+        font-style: italic;
+    }
+
+    .section-history .botttxt {
+        font-family: Corm;
+        font-style: italic;
+        font-size: 14px;
+        margin-top: 25px;
+    }
+
+    .section-history .woman {
+        height: 40px;
+        width: 40px;
+        border: none solid 1px;
+        border-radius: 50%;
+    }
+
+    .section-history .ruka {
+        background-image: url(../../assets/img/11.jpg);
+        width: 170px;
+        height: 350px;
+        position: absolute;
+        left: 320px;
+        bottom: -50px;
+        background-size: cover;
+    }
+
+    .section-history .caple {
+        background-image: url(../../assets/img/12.jpg);
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        left: 150px;
+        bottom: -110px;
+        background-size: cover;
+    }
+
+    .creator .name {
+        font-size: 10px;
+    }
+
+    .creator .roly {
+        font-size: 10px;
+    }
+
+    .section-history .rose {
+        position: relative;
+        left: 146px;
+        height: 400px;
+        width: 70px;
+        top: 75px;
+    }
+
+    .section-history {
+        margin-top: 400px;
+        margin-right: -200px;
+    }
+
+    .section-3blocks .container {
+        display: flex;
+
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .section-3blocks .block .txt {
+        font-size: 15px;
+    }
+
+    .section-3blocks .block {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+    }
+
+    .section-bigtext .container {
+        width: 960px;
+        justify-content: center;
+
+    }
+
+    .section-bigtext .bgtxtmain {
+        font-size: 50px;
+        font-family: Corm;
+        font-style: normal;
+        font-weight: 500;
+        color: #bdb4ab;
+        line-height: 70px;
+        margin-left: -150px;
+
+    }
+
+    .section-bigtext .woeye {
+
+        top: 30px;
+        left: 250px;
+        width: 330px;
+        height: 150px;
+        background-size: cover;
+    }
+
+    .section-bigtext .txtintoimg {
+
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    .section-bigtext .read {
+
+        margin-left: 70px;
+        margin-bottom: 10px;
+    }
+
+    .section-images .milos {
+        width: 150px;
+        height: 150px;
+
+    }
+
+    .section-bigtext .instrekl {
+        margin-left: 50px;
+    }
+
+    .section-zayav {
+
+
+        background-size: cover;
+        height: 634px;
+    }
+
+    .section-zayav .top {
+        font-size: 35px;
+
+    }
+
+    .section-zayav .bot {
+        font-size: 20px;
+
+    }
+
+    .section-zayav .namephone {
+        margin-left: 40px;
+    }
+
+
+    .section-zayav .namephone input {
+
+        width: 350px;
+        font-size: 13px;
+    }
+
+    .section-zayav .container {
+        margin-bottom: 100px;
+    }
+
+    .section-zayav .container .topzay {
+        margin-top: 0;
+    }
+
+    .section-zayav {
+        margin-top: 100px;
+    }
+
+    footer {
+        margin-top: 0;
+    }
+
+
+
+
+}
+
+@media (max-width: 690px) {
+    .container {
+        width: 500px;
+    }
+
+    header {
+        margin-left: 0px;
+    }
+
+    header .container {
+        width: 600px;
+    }
+
+    header .container .lefth {
+
+
+        font-size: 10px;
+
+    }
+
+
+    header .container .righth {
+
+        margin-left: 50px;
+        font-size: 10px;
+    }
+
+    .mimilo {
+        margin-left: 50px;
+        font-size: 17px;
+
+    }
+
+
+    .section-mchg {
+        margin-left: 80px;
+    }
+
+    .lovesoap {
+        margin-right: -20px;
+
+    }
+
+    .telo {
+    
+        width: 100px;
+        height: 150px;
+      
+        left: 300px;
+        bottom: -30px;
+    }
+
+    .section-collection .container .linecolle {
+        margin-left: 200px;
+    }
+
+    .section-history  {
+
+        margin-left: -200px;
+
+    }
+
+    .section-3blocks .block .txt {
+        font-size: 11px;
+    }
+
+    .section-bigtext  {
+        margin-left: -90px;
+
+    }
+
+
+
 }
