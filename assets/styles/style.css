@@ -51,6 +51,8 @@ p {
 header {
     margin-top: 35px;
     color: #999088;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -176,7 +178,7 @@ header .container .righth .principe {
 .love {
     font-family: Corm;
     font-size: 50px;
-    margin-right: 100px;
+ 
     color: #999088;
     font-style: italic;
 }
@@ -191,9 +193,14 @@ header .container .righth .principe {
     bottom: -50px;
 }
 
-.section-mchg u {
+.section-lovesoap u {
     font-family: Corm;
     color: #756b62;
+}
+
+.section-lovesoap{
+    display: flex;
+    justify-content: center;
 }
 
 .section-collection {
@@ -205,6 +212,8 @@ header .container .righth .principe {
 .section-collection .container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-collection .container .linecolle {
@@ -227,7 +236,7 @@ header .container .righth .principe {
 .section-collection .collections {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 50px
 }
 
 .section-collection .txtall {
@@ -236,6 +245,9 @@ header .container .righth .principe {
     justify-content: space-between;
 }
 
+.section-collection .block{
+    margin-left: 50px;
+}
 
 
 .section-collection .price {
@@ -264,6 +276,9 @@ header .container .righth .principe {
 
 .section-history {
     margin-top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .section-history .hisline {
@@ -370,7 +385,8 @@ header .container .righth .principe {
 
 .section-3blocks img {
     width: 55px;
-    height: 55px;
+    height: 100%;
+    background-size: cover;
 }
 
 .section-3blocks .block {
@@ -392,14 +408,18 @@ header .container .righth .principe {
 
 .section-bigtext {
     margin-top: 200px;
-}
-
-.section-bigtext .container {
-    width: 1400px;
     display: flex;
     justify-content: center;
     text-align: center;
+    flex-direction: column;
     position: relative;
+}
+
+.section-bigtext .container {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
 }
 
 .section-bigtext .bgtxtmain {
@@ -413,15 +433,15 @@ header .container .righth .principe {
 
 .section-bigtext .woeye {
     background-image: url(../../assets/img/13.jpg);
-    position: absolute;
-    top: 100px;
-    left: 410px;
     width: 530px;
-    height: 350px;
+    height: 290px;
     background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    position: absolute;
+    bottom: 300px;
+    align-items: center;
 }
 
 .section-bigtext .txtintoimg {
@@ -442,7 +462,13 @@ header .container .righth .principe {
     justify-content: center;
     align-items: center;
     border-radius: 2em;
-    margin-left: 170px;
+
+}
+
+.section-bigtext .bebra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -482,21 +508,24 @@ header .container .righth .principe {
 
 .section-images .kartinki {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 
 }
 
 .section-images .milos {
     width: 370px;
     height: 370px;
-    margin-left: 25px;
+    margin: 0 50px;
+
 }
 
 .section-zayav {
 
     background-image: url(../../assets/img/19.jpg);
     background-size: cover;
-    height: 634px;
+    margin-top: 200px;
+
+
 }
 
 .section-zayav .container {
@@ -505,11 +534,11 @@ header .container .righth .principe {
 
 
 
+
 }
 
 .section-zayav .container .topzay {
     display: flex;
-    margin-top: 60px;
     justify-content: space-between;
 }
 
@@ -598,6 +627,7 @@ header .container .righth .principe {
 .section-zayav .butter {
     display: flex;
     justify-content: center;
+    margin-bottom: 30px;
 }
 
 .section-zayav .send {
@@ -620,8 +650,10 @@ header .container .righth .principe {
 
 footer {
     height: 402px;
+    width: 100%;
     background-image: url(../../assets/img/20.jpg);
     background-size: cover;
+
 }
 
 
@@ -761,8 +793,42 @@ footer .miminatu {
         width: 1140px;
     }
 
+    .section-collection .container .collections{
+        display: flex;
+        flex-direction: column;
+    }
+
     header .container {
         width: 950px;
+    }
+
+    .section-images .milos {
+        width: 90%;
+        height: 90%;
+
+
+    }
+
+    .section-3blocks .container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-3blocks .container .block {
+        margin-top: 50px;
+    }
+
+    .section-bigtext .bgtxtmain {
+        font-size: 75px;
+        line-height: 100px;
+    }
+
+    .section-bigtext .woeye {
+        width: 430px;
+        height: 235px;
+        bottom: 300px;
+
     }
 
     .section-mchg .skin {
@@ -801,9 +867,6 @@ footer .miminatu {
         left: 800px;
     }
 
-    .section-collection .container .linecolle {
-        margin-left: 400px;
-    }
 
     .section-collection .collections {
         flex-direction: column;
@@ -841,54 +904,27 @@ footer .miminatu {
         margin-left: 50px;
     }
 
-    .section-bigtext .bgtxtmain {
-        font-size: 75px;
-        margin-right: 350px;
-    }
-
-    .section-bigtext .woeye {
-        width: 400px;
-        height: 220px;
-        left: 340px;
-        margin-top: 50px;
-    }
-
-    .section-bigtext .txtintoimg {
-
-        font-size: 15px;
-    }
-
-    .section-bigtext .read {
-
-        margin-left: 100px;
-    }
 
 
 
-    .section-images .kartinki {
-        display: flex;
 
-        align-items: center;
 
-    }
 
-    .section-images .milos {
-        margin-top: 15px;
-        width: 270px;
-        height: 270px;
-    }
+
+
+
 
     .section-zayav .container .topzay {
-        display: flex;
         flex-direction: column;
+        justify-content: center;
         align-items: center;
     }
 
 
 
-    footer {
-        margin-top: 100px;
-    }
+
+
+
 
     footer .container {
         flex-direction: column;
@@ -909,6 +945,11 @@ footer .miminatu {
     .adres {
         justify-content: center;
     }
+
+    .midblockf {
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -918,7 +959,7 @@ footer .miminatu {
 
     header .container .lefth {
 
-        margin-left: 100px;
+
         font-size: 12px;
 
     }
@@ -1083,26 +1124,7 @@ footer .miminatu {
         top: -30px;
     }
 
-    .section-history {
-        margin-top: 400px;
-        margin-right: -200px;
-    }
 
-    .section-3blocks .container {
-        display: flex;
-
-        flex-direction: column;
-
-        align-items: center;
-    }
-
-    .section-3blocks .block {
-        width: 33%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 30px;
-    }
 
     .section-bigtext .container {
         width: 960px;
@@ -1110,47 +1132,13 @@ footer .miminatu {
 
     }
 
-    .section-bigtext .bgtxtmain {
-        font-size: 50px;
-        font-family: Corm;
-        font-style: normal;
-        font-weight: 500;
-        color: #bdb4ab;
-        line-height: 70px;
-        margin-right: -10px;
 
-    }
 
-    .section-bigtext .woeye {
 
-        top: 30px;
-        left: 320px;
-        width: 330px;
-        height: 150px;
-        background-size: cover;
-    }
 
-    .section-bigtext .txtintoimg {
 
-        font-size: 12px;
-        margin-top: 20px;
-    }
 
-    .section-bigtext .read {
 
-        margin-left: 70px;
-        margin-bottom: 10px;
-    }
-
-    .section-images .milos {
-        width: 150px;
-        height: 150px;
-
-    }
-
-    .section-bigtext .instrekl {
-        margin-left: 90px;
-    }
 
     .section-zayav {
 
@@ -1208,6 +1196,7 @@ footer .miminatu {
 
     header {
         margin-left: 0px;
+        margin-right: 25px;
     }
 
     header .container {
@@ -1306,9 +1295,7 @@ footer .miminatu {
 
     }
 
-    .section-collection .container .linecolle {
-        margin-left: 300px;
-    }
+
 
     .section-collection .container .textcollection {
         font-size: 10px;
@@ -1400,30 +1387,9 @@ footer .miminatu {
         top: 75px;
     }
 
-    .section-history {
-        margin-top: 400px;
-        margin-right: -200px;
-    }
 
-    .section-3blocks .container {
-        display: flex;
 
-        flex-direction: column;
 
-        align-items: center;
-    }
-
-    .section-3blocks .block .txt {
-        font-size: 15px;
-    }
-
-    .section-3blocks .block {
-        width: 33%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 30px;
-    }
 
     .section-bigtext .container {
         width: 960px;
@@ -1432,46 +1398,28 @@ footer .miminatu {
     }
 
     .section-bigtext .bgtxtmain {
-        font-size: 50px;
-        font-family: Corm;
-        font-style: normal;
-        font-weight: 500;
-        color: #bdb4ab;
-        line-height: 70px;
-        margin-left: -150px;
-
+        font-size: 65px;
+        line-height: 80px;
     }
 
     .section-bigtext .woeye {
-
-        top: 30px;
-        left: 250px;
-        width: 330px;
-        height: 150px;
+        height: 190px;
+        width: 350px;
+        bottom: 280px;
         background-size: cover;
     }
 
     .section-bigtext .txtintoimg {
 
-        font-size: 12px;
+        font-size: 16px;
         margin-top: 20px;
     }
 
-    .section-bigtext .read {
 
-        margin-left: 70px;
-        margin-bottom: 10px;
-    }
 
-    .section-images .milos {
-        width: 150px;
-        height: 150px;
 
-    }
 
-    .section-bigtext .instrekl {
-        margin-left: 50px;
-    }
+ 
 
     .section-zayav {
 
@@ -1482,6 +1430,7 @@ footer .miminatu {
 
     .section-zayav .top {
         font-size: 35px;
+        line-height: 35px;
 
     }
 
@@ -1566,33 +1515,447 @@ footer .miminatu {
     }
 
     .telo {
-    
+
         width: 100px;
         height: 150px;
-      
+
         left: 300px;
         bottom: -30px;
     }
 
-    .section-collection .container .linecolle {
-        margin-left: 200px;
+ 
+
+
+
+
+}
+
+
+
+@media (max-width: 480px) {
+    .container {
+        width: 360px;
     }
 
-    .section-history  {
+    .section-images .milos {
+        width: 10%;
+        height: 10%;
+        margin: 0 10px;
 
-        margin-left: -200px;
 
     }
 
-    .section-3blocks .block .txt {
-        font-size: 11px;
+    header .container {
+        width: 300px;
     }
 
-    .section-bigtext  {
-        margin-left: -90px;
-
+    header .lefth {
+        margin-left: 0;
     }
 
 
+    header .container * {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    header .container .leftblockf * {
+        margin: 0;
+    }
+
+    header .container .rightblockf * {
+        margin: 0;
+    }
+
+    header .container .midblockf * {
+        margin: 0;
+    }
+
+    header .container .righth {
+        margin-right: 0;
+
+    }
+
+    header .container .lefth .history {
+        margin-left: 0;
+    }
+
+    header .container .righth {
+        margin-left: 0;
+        font-size: 10px;
+    }
+
+    header .container .righth .principe {
+        margin-right: 0;
+    }
+
+    header .container {
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    header .container .lefth .history {
+        margin-top: 25px;
+    }
+
+
+    header .nabor {
+        margin-top: 12.5px;
+    }
+
+    header .bag {
+        margin-top: 12.5px;
+    }
+
+    .section-mchg .skin {
+        width: 130px;
+        height: 244px;
+    }
+
+    .hand {
+        width: 75px;
+        height: 75px;
+        left: 100px;
+    }
+
+    .mchg {
+        font-size: 30px;
+        left: 46px;
+
+    }
+
+    .milo {
+        width: 75px;
+        height: 75px;
+        bottom: 250px;
+        left: 60px;
+
+    }
+
+    .section-mchg {
+        margin-top:100px;
+
+    
+    }
+
+    .watermark {
+        width: 70px;
+        height: 70px;
+        left: 288px;
+        bottom: -30px;
+    }
+
+    .telo {
+        width: 85px;
+        height: 110px;
+        left: 220px;
+        bottom: -30px;
+    }
+
+    .love {
+        font-size: 17px;
+    }
+
+    .lovesoap {
+        margin-top: 200px;
+    }
+
+    .section-history .textcollection {
+        margin-left: 10px;
+        text-transform: uppercase;
+    }
+
+    .section-history .line {
+        height: 1px;
+        background-color: #999088;
+        width: 30px;
+        margin-top: 7px;
+    }
+
+    .section-history .ruka {
+        background-image: url(../../assets/img/11.jpg);
+        width: 140px;
+        height: 288px;
+        position: absolute;
+        left: 0px;
+        bottom: -315px;
+        background-size: cover;
+    }
+
+    .section-history .caple {
+        background-image: url(../../assets/img/12.jpg);
+        width: 130px;
+        height: 130px;
+        position: absolute;
+        left: 166px;
+        bottom: -110px;
+        background-size: cover;
+    }
+
+    .section-history .rose {
+        position: relative;
+        left: 116px;
+        height: 400px;
+        width: 70px;
+        top: 12px;
+    }
+
+    .container{
+        margin-right: 25px;
+    }
+
+
+    .section-3blocks .block {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+     
+
+    .section-bigtext .bgtxtmain {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .section-bigtext .woeye {
+        height: 108px;
+        width: 185px;
+        bottom: 248px;
+        background-size: cover;
+    }
+
+    .section-bigtext .txtintoimg {
+        font-size: 9px;
+        margin-top: 30px;
+    }
+
+    .section-bigtext .read {
+        margin-top: 25px;
+        text-transform: uppercase;
+        color: #efe6db;
+        font-weight: 300;
+        border: #efe6db solid 1px;
+        width: 160px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2em;
+        margin-bottom: 10px;
+    }
+
+    .section-images .milos {
+        width: 30%;
+        height: 30%;
+        margin: 0 10px;
+    }
+
+    .section-zayav .top {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .section-zayav .bot {
+        font-size: 17px;
+    }
+
+    .section-zayav .vozin {
+        margin-left: 10px;
+        opacity: 100%;
+        color: #756b62;
+        font-size: 10px;
+    }
+
+    .uvlop {
+        width: 15px;
+        height: 15px;
+    }
+
+    .section-zayav .inputs .krugi {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section-zayav .megainput {
+        display: flex;
+        align-items: center;
+        margin-top: 15px;
+    }
+
+    .section-zayav .namephone input {
+        width: 280px;
+        font-size: 13px;
+    }
+
+    .section-zayav .kvadrat {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        margin-left: 70px;
+
+    }
+
+    .section-zayav .inputs {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    .section-zayav .send {
+        margin-top: 30px;
+        text-transform: uppercase;
+        color: #756b62;
+        font-weight: 300;
+        border: #756b62 solid 1px;
+        width: 190px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2em;
+        font-weight: 500;
+        font-size: 18px;
+    }
+
+
+
+
+
+
+}
+
+@media (max-width: 330px) {
+    .container {
+        width: 310px;
+        margin-right: 0;
+    }
+
+    .section-mchg {
+        margin-top: 100px;
+        margin-left: 140px;
+    }
+
+    .watermark {
+        width: 60px;
+        height: 60px;
+        left: 250px;
+        bottom: -30px;
+    }
+    .section-mchg .skin {
+        width: 120px;
+        height: 225px;
+    }    
+
+    .mchg {
+        font-size: 25px;
+        left: 40px;
+    }    
+
+    .hand {
+        width: 75px;
+        height: 75px;
+        left: 64px;
+    }
+
+    .mchgmain {
+        display: flex;
+        position: relative;
+        margin-right: 15px;
+    }
+
+    .love {
+        font-size: 16px;
+    }
+
+    .lovesoap {
+        margin-top: 200px;
+        margin-right: 15px;
+
+    }
+
+    .telo {
+        width: 65px;
+        height: 98px;
+        left: 213px;
+        bottom: -15px;
+    }
+
+    .section-history{
+        margin-right: 25px;
+    }
+
+    .section-history .caple {
+        background-image: url(../../assets/img/12.jpg);
+        width: 90px;
+        height: 90px;
+        position: absolute;
+        left: 155px;
+        bottom: -110px;
+        background-size: cover;
+    }
+
+    .section-3blocks .txt {
+        font-family: Corm;
+        font-style: italic;
+        font-size: 16px;
+        font-weight: 700;
+        margin-top: 25px;
+    }
+
+    .section-bigtext .read {
+        margin-top: 25px;
+        text-transform: uppercase;
+        color: #efe6db;
+        font-weight: 300;
+        border: #efe6db solid 1px;
+        width: 130px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 2em;
+        margin-bottom: 10px;
+    }
+
+    .section-bigtext .bgtxtmain {
+        font-size: 26px;
+        line-height: 31px;
+    }
+
+    .instrekl p{
+        font-size: 10px;
+    }
+
+    .section-zayav .bot {
+        font-size: 15px;
+    }
+
+    .section-zayav .namephone {
+        margin-left: 20px;
+    }
+
+    .section-zayav .namephone input {
+        width: 260px;
+        font-size: 13px;
+    }
+    .section-zayav .kvadrat {
+        display: flex;
+        margin-top: 50px;
+        justify-content: center;
+        margin-left: 33px;
+    }
+
+    .adres {
+        justify-content: center;
+        font-size: 15px;
+    }
 
 }
